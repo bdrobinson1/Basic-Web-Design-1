@@ -1,0 +1,88 @@
+body {
+    background-color: thistle;
+}
+
+#container {
+    background-color: gainsboro;
+    width: 75%;
+    margin: 20px auto;
+    border: 2px solid rgb(100, 100, 100);
+    padding: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+#col1 {
+    width: 50%;
+    border: 2px solid rgb(100, 100, 100);
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid rgb(100, 100, 100);
+    margin: 20px;
+    padding: 20px;
+}
+
+.heading_style {
+    text-shadow: 2px 2px 2px #a09b9b;
+}
+
+.game_post {
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+    background-color: gainsboro;
+    padding: 5px;
+    
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: rgb(97, 97, 97);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px; 
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a:hover {
+    background-color: honeydew;
+    color: black;
+}
+
+#two_col {
+    display: flex;
+}
+
+
+h1, 
+h2,
+h3,
+footer {
+    text-align: center;
+}
