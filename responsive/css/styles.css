@@ -44,7 +44,7 @@ img {
         margin-top: 5px;
     }
 
-    nav li a: :hover {
+    nav li a: hover {
         background-color: #8C8C8C;
     }
 
